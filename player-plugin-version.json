@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "AipptPlayerAddIn",
+  "pluginRole": "player",
+  "displayName": "AI课件助手使用者插件",
+  "latestVersion": "1.0.0.0",
+  "minimumSupportedVersion": "1.0.0.0",
+  "releaseDate": "2026-05-06",
+  "downloadUrl": "https://github.com/<owner>/<repo>/releases/latest/download/AipptPlayerAddIn.zip",
+  "releaseNotesUrl": "https://github.com/<owner>/<repo>/releases/latest",
+  "forceUpdate": false,
+  "sha256": "",
+  "notes": [
+    "首次公开版本。",
+    "支持放映时加载 PPT 内嵌 HTML 互动页面。"
+  ]
+}
