@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AipptAddIn", "AipptAddIn.csproj", "{354CCD58-6485-4442-BB31-52933F312706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AipptPlayerAddIn", "AipptPlayerAddIn\AipptPlayerAddIn.csproj", "{C6A0F3FE-826B-4A43-B71B-E32774D1C430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{354CCD58-6485-4442-BB31-52933F312706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354CCD58-6485-4442-BB31-52933F312706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354CCD58-6485-4442-BB31-52933F312706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354CCD58-6485-4442-BB31-52933F312706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A0F3FE-826B-4A43-B71B-E32774D1C430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A0F3FE-826B-4A43-B71B-E32774D1C430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A0F3FE-826B-4A43-B71B-E32774D1C430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A0F3FE-826B-4A43-B71B-E32774D1C430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8164782-742E-44F2-9545-45AA24483DF1}
+	EndGlobalSection
+EndGlobal

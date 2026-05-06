@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>课件互动页面</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      color: #1f2937;
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid #dbeafe;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 16px 42px rgba(37, 99, 235, 0.12);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      color: #2563eb;
+      background: #dbeafe;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+
+    p {
+      margin: 0;
+      color: #4b5563;
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+    .actions {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .action {
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid #bfdbfe;
+      background: #ffffff;
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+
+    .tip {
+      margin-top: 18px;
+      padding: 14px;
+      border-radius: 14px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #9a3412;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <span class="badge">本地 HTML 页面</span>
+      <h1>课件使用者互动页</h1>
+      <p>
+        这是使用者专用插件加载的单文件 HTML 页面。后续可以把课堂互动、资源入口、
+        练习反馈或本地说明页面放在这里。
+      </p>
+
+      <div class="actions">
+        <div class="action">① 查看课堂任务</div>
+        <div class="action">② 打开配套资源</div>
+        <div class="action">③ 记录课堂反馈</div>
+      </div>
+
+      <div class="tip">
+        当前版本只负责加载本地 HTML 文件，不包含制作端的大模型、生成课件、生成插画等功能。
+      </div>
+    </div>
+  </div>
+</body>
+</html>
